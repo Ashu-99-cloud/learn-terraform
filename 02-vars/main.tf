@@ -13,6 +13,11 @@ variable "fruit_prices" {
   }
 }
 
-output "fruit"  {
-  value = var.fruit
+#output "fruit"  {
+#  value = var.fruit
+#}
+
+output "first_fruit"  {
+  value = var.fruits[0]
 }
+
