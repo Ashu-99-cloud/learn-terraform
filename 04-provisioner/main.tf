@@ -8,8 +8,8 @@ resource "null_resource" "test1" {
   provisioner "local-exec" {
     command = <<EOF
 echo Hello World
-ld
+ls
 pwd
 EOF
-  }
+   }
 }
